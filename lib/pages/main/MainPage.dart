@@ -26,7 +26,7 @@ class MainPageState extends State<MainPage>
         new PersonPage(),
       ]),
       bottomNavigationBar: new Material(
-        color: Theme.of(context).primaryColor,
+        color: Theme.of(context).primaryColor,//使用主体颜色
         child: new TabBar(
           controller: controller,
           tabs: <Widget>[
